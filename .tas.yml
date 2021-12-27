@@ -7,9 +7,11 @@ preMerge:
   pattern:
     - "test/**/*.js"
 preRun:
+ command:
   - yarn install
   - NODE_ENV=production yarn build
 postRun:
+ command:
   - yarn --version
 configFile: "./test/.mocharc.yml"
 version: 2.1
