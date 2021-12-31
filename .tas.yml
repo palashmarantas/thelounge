@@ -14,4 +14,4 @@ postRun:
  command:
   - yarn --version
 configFile: "./test/.mocharc.yml"
-version: 2.1
+version: 2.2
